@@ -125,7 +125,7 @@ if __name__ == "__main__":
         #grosspay, incometax, netpay = CalcTaxAndNetPay(hours, hourlyrate, taxrate)
         #printinfo(empname, hours, hourlyrate, grosspay, taxrate, incometax, netpay)
         #write code to insert fromdate, todate, empname, hours, hourlyrate, and taxrate into list EmpDetail
-        EmpDetail = ['fromdate', 'todate', 'empname', 'hours', 'hourlyrate', 'taxrate']
+        EmpDetail = [ fromdate, todate, empname, hours, hourlyrate, taxrate]
 
         #the following code appends the list EmpDetail to the list EmpDetailList
         EmpDetailList.append(EmpDetail)
